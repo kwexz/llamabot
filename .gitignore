@@ -1,11 +1,12 @@
-# База данных профилей
-user_profiles.db
+# База данных профилей 
+user_profiles*.db
 user_profiles.db-journal
 user_profiles.db-wal
 user_profiles.db-shm
-
-# Старый JSON файл профилей (если был)
-user_profiles.json
+# База данных эмбеддингов
+chroma_db*
+# Дамп сообщений Telegram
+result.json
 
 # Python
 __pycache__/
@@ -84,3 +85,4 @@ logs/
 # Data files (опционально, если не хотите коммитить result.json)
 # result.json
 
+.roo/mcp.json
