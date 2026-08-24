@@ -13,8 +13,8 @@ from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 from collections import defaultdict, Counter
 from dotenv import load_dotenv
-from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+from telegram import Update
 import chromadb
 from chromadb.config import Settings
 
